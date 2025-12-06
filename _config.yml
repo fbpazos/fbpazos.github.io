@@ -63,29 +63,79 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: AI Engineer & Technical Leader
+        link: https://dxc.com/es
+        link_text: DXC.com
+        sub_title: Zaragoza, Spain
+        caption: January 2025 - Today
+        description: | # this will include new lines to allow paragraphs
+            ## DXC Technology
+            ---
+            1.	Contract Intelligence Platform
+
+                *	Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing various microservices and cloud-native architecture on Azure.
+
+                *	Architected intelligent agents (geospatial, claims, decision automation) at enterprise scale using Azure OpenAI GPT-4o.
+
+                *	Designed event-driven data pipelines (Azure EventHub, 99.9% reliability), processing over 1M records.
+
+                *	Owned end-to-end delivery from technical roadmap to enterprise deployment.
+
+                *	Built DevOps pipelines, CI/CD automation, and AI model validation frameworks for scalable production systems.
+
+                *	Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
+
+
+            2.	Enterprise AI Platform Leadership: 
+
+                *	Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests, using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure and Kubernetes.
+
+                *	Built an orchestration layer coordinating specialised agents and shared MCP tools, ensuring deterministic, auditable workflows and clean separation between business logic, standards and geospatial computation.
+
+                *	Integrated the platform with existing enterprise systems (including CRM and work management tools) via dedicated adapters, enabling end-to-end automation from request intake to deployment-ready traffic plans.
+
+                *	Improved delivery speed and consistency of traffic management designs by standardising computations, reducing manual configuration effort and lowering the risk of human error in layout definition.
+
+
+            3.	Contract Intelligence Platform
+
+                *	Built production-grade conversational AI with Google ADK & RAG, enabling 10K+ contract searches with >90% retrieval accuracy.
+
+                *	Developed concurrent AI pipelines for contract term extraction via Azure OpenAI GPT — cutting processing time by 70%.
+
+                *	Engineered microservice architecture with Model Context Protocol (MCP), vector search (Azure AI Search), and real-time streaming APIs.
+
+                *	Delivered full-stack platform (FastAPI, PostgreSQL, Azure AKS, Azure AD) with robust cloud infrastructure and auto-scaling Kubernetes deployments.
+
+                *	Automated legal compliance reviews, reducing review cycles from days to minutes.
+
+      - layout: left
         title: AI Innovator & Digital Transformation Consultant
         link: https://idom.com
         link_text: IDOM.com
         sub_title: Bilbao, Spain
-        caption: September 2023 - Today
+        caption: September 2023 - December 2024
         description: | # this will include new lines to allow paragraphs
             ## IDOM
             ---
-            * AI Innovator
-
-                1. Directed the __theoretical research & development__ of an innovative internal **Retrieval Augmented Generation (RAG)** system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced __AI technologies & Large Language Models (LLM)__ to drive organizational progress and innovation.
-
-                2. Pioneered the development of an **AI classifier using NLP and Google's BERT** language model, complemented by an __ontology__-based approach, for sophisticated categorization derived from comprehensive project descriptions.
+            1.	System Innovator: 
+                *	Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities. Demonstrated that this approach could outperform traditional human monitoring systems by providing real-time data integration and predictive analytics. 
                 
-                3. Innovated a **CV generator** grounded in the __SAP's Success Factors__ internal system, featuring a multi-layered approach encompassing data ingestion, __AI-driven__ & deterministic data processing paragraph generation, template compilation, and polished CV output. 
+                *	Directed the theoretical research & development of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced AI technologies & Large Language Models (LLM) to drive organizational progress and innovation. 
 
-                4. Architected and deployed a cutting-edge __AI development infrastructure__, encapsulating a fully **dockerized** framework that enables real-time monitoring of system resources. Masterfully set-up **NGINX** for efficient routing, and implemented a suite of advanced __AI tools__, setting new benchmarks in technological excellence like **Stable Diffusion**
+                *	Pioneered the development of an AI classifier using NLP and the Google's BERT language model, complemented by an ontology-based approach, for sophisticated categorization derived from comprehensive project descriptions.
 
-            * Digital Tranformation Consultant
+                *	Innovated a CV generator grounded in the S&P's Success Factors internal system, featuring a multi-layered approach encompassing data ingestion, AI-driven & deterministic data processing paragraph generation, template compilation, and polished CV output.
 
-                1. Spearheaded the development of cutting-edge **artificial intelligence and mathematical models**, revolutionizing asset __maintenance__ from __reactive to proactive__ using __SAP's__ Intelligent Asset Management and Internet of Things modules.
+                *	Architected and deployed a cutting-edge AI development infrastructure, encapsulating a fully dockerized framework that enables real-time monitoring of system resources. Masterfully set-up Traefik for efficient routing, and implemented a suite of advanced AI tools, setting new benchmarks in technological excellence like Stable Diffusion.
 
-                2. Played a pivotal role as a __Statistician__ in developing the cadastre system, in collaboration with the registry office, offering clear justifications for property valuations to citizens. Innovated a **unique calculation method for assessing house values** across the Basque Country, enhancing the system's accuracy and transparency in property valuation.
+
+            2.	Consulting - Digital Transformation: 
+                *	Developed an AI-automated pipeline for processing tabular data into specific SAP naming conventions using Azure Document Intelligence and Azure Phi-3.5 cloud deployment. This system significantly reduced data processing time and improved the accuracy and consistency of data integration within SAP systems compared to manual human processing.
+
+                *	Spearheaded the development of cutting-edge artificial intelligence and mathematical models, revolutionizing asset maintenance from reactive to proactive using S&P's Intelligent Asset Management and Internet of Things modules.
+
+                *	Played a pivotal role as a Statistician in developing the cadastre system, in collaboration with the registry office, offering clear justifications for property valuations to citizens. Innovated a unique calculation method for assessing house values across the Basque Country, enhancing the system's accuracy and transparency in property valuation.
       - layout: left
         title: Data Analyst and Developer
         link: https://oeg.fi.upm.es/
@@ -237,10 +287,10 @@ content:
   - title: Honors and Awards # Title for the section
     layout: text # Type of content section (list/text)
     content: |
-        ## • Logicalis Innovation Challenge 
-        ## • Cambridge English Advanced Certificate
-        ## • Academic Excellence Grant 2021 & 2022
-        ## • Academic Excellence Award for Representative Agents of Banco Mediolanum 2022
+        ## * Logicalis Innovation Challenge 
+        ## * Cambridge English Advanced Certificate
+        ## * Academic Excellence Grant 2021 & 2022
+        ## * Academic Excellence Award for Representative Agents of Banco Mediolanum 2022
   
 
   - title: A Little More About Me
