@@ -49,11 +49,11 @@ gtag: "G-M63WSJK6VF"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  A driven and dedicated professional, I combine a strong work ethic with a passion for innovation in artificial intelligence and data analysis. At IDOM, I lead projects that push the boundaries of technology, using advanced AI to enhance organizational capabilities and transform digital infrastructures.
+  I combine mathematics, multi-agent AI, and cloud-native engineering to translate complex domains into reliable enterprise products. My work spans from launching Azure- and AutoGen-powered platforms at DXC to researching advanced RAG, digital twins, and intelligent automation at IDOM, always with an eye toward measurable operational impact.
 
-  I hold a Master's in Applied and Computational Mathematics from Carlos III University of Madrid, which underpins my rigorous approach to AI development and problem-solving. I am a confident communicator who excels in collaborating with multidisciplinary teams to deliver projects that are not only innovative but also have practical applications in improving business processes.
-  
-  I am most skilled in: <mark>Python</mark> and <mark>Mathematics</mark>
+  My Applied & Computational Mathematics master's from Universidad Carlos III de Madrid and my background in research and consulting keep me grounded in structured reasoning, while I guide cross-functional teams toward production-ready innovations that integrate analytics, automation, and DevOps best practices.
+
+  I am most skilled in: <mark>Python</mark>, <mark>Azure</mark>, <mark>multi-agent orchestration</mark>, and <mark>mathematics</mark>
 
   Download my CV:
     - [In English](files/Fernando Bellido Pazos - CV.pdf)
@@ -71,7 +71,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             ## DXC Technology
             ---
-            1.	Contract Intelligence Platform
+            1.	Enterprise AI Platform Leadership:
 
                 *	Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing various microservices and cloud-native architecture on Azure.
 
@@ -86,7 +86,7 @@ content:
                 *	Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
 
 
-            2.	Enterprise AI Platform Leadership: 
+            2.	Agentic Traffic Management Automation Platform: 
 
                 *	Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests, using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure and Kubernetes.
 
