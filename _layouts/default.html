@@ -26,7 +26,7 @@
             {% else %}
               {% assign section_content = data_file %}
             {% endif %}
-            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section_content %}
+            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section_content section_name=section.data %}
           </div>
         {% endfor %}
       {%- elsif site.version == 2 -%}

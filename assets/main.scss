@@ -623,6 +623,130 @@ a[href*=".pdf"]:hover {
   transform: translateY(-1px);
 }
 
+/* Collapsible Experience Details & Interactive Accordion */
+.experience-details {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.experience-details summary.experience-summary {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  margin-bottom: 8px;
+}
+
+.experience-details summary.experience-summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-details summary.experience-summary::marker {
+  display: none;
+}
+
+.summary-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-accent-light);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-accent-border);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.experience-details summary.experience-summary:hover .summary-badge {
+  background-color: #dbeafe;
+  border-color: #93c5fd;
+  color: var(--color-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.summary-chevron {
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.experience-details[open] .summary-chevron {
+  transform: rotate(180deg);
+}
+
+.experience-details .text-when-open {
+  display: none;
+}
+
+.experience-details .text-when-closed {
+  display: inline;
+}
+
+.experience-details[open] .text-when-open {
+  display: inline;
+}
+
+.experience-details[open] .text-when-closed {
+  display: none;
+}
+
+.experience-body {
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--color-border);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    font-size: 12pt !important;
+  }
+
+  .wrapper {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .experience-details {
+    display: block !important;
+  }
+
+  .experience-details summary {
+    display: none !important;
+  }
+
+  .experience-body {
+    display: block !important;
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
 /* Footer */
 footer {
   margin-top: 48px;
@@ -632,3 +756,4 @@ footer {
   font-size: 0.88rem;
   color: var(--color-text-muted);
 }
+

@@ -1,0 +1,52 @@
+{% for item in include.content %}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+
+      <p class="no-print aditional-links">
+        {% for link in item.additional_links %}
+          {% include a.html href=link.url class="" %}
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+      {%- if item.company -%}
+        <h2>{{ item.company }}</h2>
+        <hr>
+      {%- endif -%}
+
+      {%- if item.quote -%}
+        <p class="quote">{{ item.quote }}</p>
+      {%- endif -%}
+      
+      {%- if item.description -%}
+        {%- if include.section_name == 'experience' or item.collapsible == true -%}
+          <details class="experience-details" {% if forloop.first %}open{% endif %}>
+            <summary class="experience-summary">
+              <span class="summary-badge">
+                <span class="text-when-closed">View details & initiatives</span>
+                <span class="text-when-open">Hide details</span>
+                <svg class="summary-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </summary>
+            <div class="experience-body">
+              {{ item.description | strip | markdownify }}
+            </div>
+          </details>
+        {%- else -%}
+          {{ item.description | strip | markdownify }}
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </div>
+{% endfor %}
