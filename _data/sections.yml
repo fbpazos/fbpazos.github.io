@@ -2,6 +2,10 @@
   layout: list
   data: experience
 
+- title: Certifications
+  layout: list
+  data: certifications
+
 - title: Education
   layout: list
   data: education
