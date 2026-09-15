@@ -9,6 +9,7 @@ version: 2
 name: Fernando Bellido Pazos
 title: Mathematician and Computer Scientist
 email: fbellidopazos@gmail.com
+phone: "+34 638907402"
 website: https://fbpazos.github.io/
 
 # Dark Mode (true/false/never)
@@ -56,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Python</mark>, <mark>Azure</mark>, <mark>multi-agent orchestration</mark>, and <mark>mathematics</mark>
 
   Download my CV:
-    - [In English](files/Fernando Bellido Pazos - CV.pdf)
+    - [In English](files/CV Fernando BP - Sept2026.pdf)
 
 # Sections are now managed modularly in _data/
 # See _data/sections.yml and individual YAML files (_data/experience.yml, _data/education.yml, etc.)

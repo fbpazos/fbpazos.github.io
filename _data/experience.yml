@@ -3,11 +3,37 @@
   link: https://dxc.com/es
   link_text: DXC.com
   sub_title: Zaragoza, Spain
-  caption: January 2025 - Today
+  caption: Jan. 2025 – Today
   description: |
       ## DXC Technology
       ---
-      1.	Enterprise AI Platform Leadership:
+      1.	AI Solutions Engineer | GenAI & Architecture:
+
+          *	Led the functional analysis, architecture, and end-to-end development of an enterprise Generative AI pipeline to accelerate technical presales. Replaced manual RFP/tender analysis with a deterministic, schema-first structured extraction and multi-agent auditing system.
+
+          *	**Architecture & Lifecycle**: Mapped the opportunity lifecycle across 8 stages (Phases 0–7) and designed a modular suite of 9 capabilities to mitigate critical risks, including hidden penalties, tone/style inconsistencies, and bid disqualification caused by envelope-crossover errors.
+
+          *	**Deterministic (Schema-First) Extraction**: Developed an engine utilizing long-context LLMs and layout-aware document parsing (Docling/PyMuPDF). Bypassed vector RAG in favor of strict, self-healing Pydantic v2 data contracts, structuring 450+ items with end-to-end traceability and verbatim citations.
+
+          *	**Multi-Agent Evaluation**: Designed a virtual review committee (Neutral Arbiter alongside technical and financial risk evaluators) to audit 150+ page proposals against tender specifications, delivering clause-by-clause verdicts with detailed rationale and textual evidence.
+
+          *	**Governance & Human-in-the-Loop**: Implemented an inspectable runtime featuring quality gates (Gate M4), enterprise cloud isolation (zero-training data policies), and end-to-end audit logging.
+
+          *	**Impact & Empirical Validation**: Validated the MVP on live procurement bids (34-page RFP vs. 153-page proposal), slashing compliance matrix generation from 16–47 hours to under 10 minutes (>95% time savings) with 100% coverage across 320+ requirements (under 7% variance).
+
+      2.	AI Auditing System:
+
+          *	Led the technical delivery, managing both developers and a project manager, while also developing the core AI solution.
+
+          *	Built the agentic system using Google ADK to analyze uploaded audit evidences (various file formats and sizes) and determine their sufficiency against SOX controls.
+
+          *	Generated detailed, AI-analyzed reports for Control Owners, providing pre-submission validation that was previously unavailable.
+
+          *	Significantly reduced auditor time for evidence checking, resulting in substantial cost savings by minimizing the required audit resources.
+
+          *	Empowered Control Owners with a precise inventory and validation check, streamlining evidence preparation and improving compliance quality.
+
+      3.	Enterprise AI Platform Leadership:
 
           *	Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing various microservices and cloud-native architecture on Azure.
 
@@ -21,8 +47,7 @@
 
           *	Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
 
-
-      2.	Agentic Traffic Management Automation Platform: 
+      4.	Agentic Traffic Management Automation Platform:
 
           *	Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests, using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure and Kubernetes.
 
@@ -32,32 +57,19 @@
 
           *	Improved delivery speed and consistency of traffic management designs by standardising computations, reducing manual configuration effort and lowering the risk of human error in layout definition.
 
-
-      3.	Contract Intelligence Platform
-
-          *	Built production-grade conversational AI with Google ADK & RAG, enabling 10K+ contract searches with >90% retrieval accuracy.
-
-          *	Developed concurrent AI pipelines for contract term extraction via Azure OpenAI GPT — cutting processing time by 70%.
-
-          *	Engineered microservice architecture with Model Context Protocol (MCP), vector search (Azure AI Search), and real-time streaming APIs.
-
-          *	Delivered full-stack platform (FastAPI, PostgreSQL, Azure AKS, Azure AD) with robust cloud infrastructure and auto-scaling Kubernetes deployments.
-
-          *	Automated legal compliance reviews, reducing review cycles from days to minutes.
-
 - layout: left
-  title: AI Innovator & Digital Transformation Consultant
+  title: Consultant & System Innovator
   link: https://idom.com
   link_text: IDOM.com
   sub_title: Bilbao, Spain
-  caption: September 2023 - December 2024
+  caption: Sept. 2023 – Dec. 2024
   description: |
-      ## IDOM
+      ## IDOM | Consulting, Engineering, Architecture
       ---
-      1.	System Innovator: 
-          *	Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities. Demonstrated that this approach could outperform traditional human monitoring systems by providing real-time data integration and predictive analytics. 
-          
-          *	Directed the theoretical research & development of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced AI technologies & Large Language Models (LLM) to drive organizational progress and innovation. 
+      1.	System Innovator:
+          *	Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities. Demonstrated that this approach could outperform traditional human monitoring systems by providing real-time data integration and predictive analytics.
+
+          *	Directed the theoretical research & development of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced AI technologies & Large Language Models (LLM) to drive organizational progress and innovation.
 
           *	Pioneered the development of an AI classifier using NLP and the Google's BERT language model, complemented by an ontology-based approach, for sophisticated categorization derived from comprehensive project descriptions.
 
@@ -65,8 +77,7 @@
 
           *	Architected and deployed a cutting-edge AI development infrastructure, encapsulating a fully dockerized framework that enables real-time monitoring of system resources. Masterfully set-up Traefik for efficient routing, and implemented a suite of advanced AI tools, setting new benchmarks in technological excellence like Stable Diffusion.
 
-
-      2.	Consulting - Digital Transformation: 
+      2.	Consulting – Digital Transformation:
           *	Developed an AI-automated pipeline for processing tabular data into specific SAP naming conventions using Azure Document Intelligence and Azure Phi-3.5 cloud deployment. This system significantly reduced data processing time and improved the accuracy and consistency of data integration within SAP systems compared to manual human processing.
 
           *	Spearheaded the development of cutting-edge artificial intelligence and mathematical models, revolutionizing asset maintenance from reactive to proactive using S&P's Intelligent Asset Management and Internet of Things modules.
@@ -74,68 +85,22 @@
           *	Played a pivotal role as a Statistician in developing the cadastre system, in collaboration with the registry office, offering clear justifications for property valuations to citizens. Innovated a unique calculation method for assessing house values across the Basque Country, enhancing the system's accuracy and transparency in property valuation.
 
 - layout: left
-  title: Data Analyst and Developer
+  title: Data Analyst and Developer Intern
   link: https://oeg.fi.upm.es/
   link_text: oeg.fi.upm.es
   sub_title: Madrid, Spain
-  caption: September 2021 - September 2022
+  caption: Sept. 2021 – Sept. 2022
   description: |
       ## Ontology Engineering Group
       ---
-      Tasked with analyzing academic papers housed within institutional repositories and developing a sophisticated system to construct knowledge graphs. This system is designed to facilitate advanced querying capabilities, addressing inquiries related to the principles of Open Science.
+      *	Developed a sophisticated system to construct knowledge graphs from academic papers housed within institutional repositories, enhancing advanced querying capabilities related to Open Science principles.
 
-- layout: left
-  title: Developer
-  link: https://savestarsconsulting.com/
-  link_text: savestarsconsulting.com
-  sub_title: Madrid, Spain
-  caption: June 2020 - July 2021
-  description: |
-      ## SaveStars Consulting
-      ---
-      Developed a Python-based system to extract images from NASA's VNP46A2 satellite, process these images, and implement a mask for a designated area of the peninsula. This system was specifically engineered to assess the level of light pollution in a particular region.
+      *	Analyzed large datasets of academic publications to extract meaningful metadata and relationships, improving data accessibility and facilitating deeper insights for researchers.
 
-- layout: left
-  title: Developer
-  link: https://osoc.be/
-  link_text: osoc.be
-  sub_title: Madrid, Spain
-  caption: Summer 2021
-  description: |
-      ## Open Summer of Code
-      ---
-      Collaborating with a diverse team with the goal of supporting the 2030 Agenda to achieve a better future. Designed a Web-App that objectively assesses and evaluates tabular data from a user-specified data source obtained from open data portals (e.g. datos.gob.es).
+      *	Implemented ontology-based data models to represent complex scholarly information, enabling better interoperability and integration with other data sources.
 
-- layout: left
-  title: Developer
-  link: https://osoc.be/
-  link_text: osoc.be
-  sub_title: Madrid, Spain
-  caption: Summer 2020
-  description: |
-      ## Open Summer of Code
-      ---
-      Collaborating with a cross-functional team to contribute to a brighter future for the 2030 agenda. 
-      Designing a WebApp that provides personalized recommendations for good habits based on data related to the global pandemic, which has been gathered, analyzed and presented through visually appealing graphs.
+      *	Optimized data ingestion processes by automating metadata extraction and semantic annotation, increasing efficiency by 40% compared to manual methods.
 
-- layout: left
-  title: Web Developer and Technical Support 
-  link: https://www.bblur.com/
-  link_text: bblur.com
-  sub_title: London, United Kingdom
-  caption: July 2019 - August 2019
-  description: |
-      ## BBLUR Architecture 
-      ---
-      Involved in the revamp of the company's website utilizing WIX (enterprise-level solution) and providing technical assistance to the company, focusing mainly on hardware support.
+      *	Collaborated with a multidisciplinary team to refine algorithms for data processing and knowledge representation, contributing to the advancement of open-source tools in the academic community.
 
-- layout: left
-  title: Web Developer and Technical Support
-  link: https://trilogygroup.com/
-  link_text: trilogygroup.com
-  sub_title: Cheltenham, United Kingdom
-  caption: July 2018 - August 2018
-  description: |
-      ## Trilogy Group Limited 
-      ---
-      Participating in the redevelopment of the company's website utilizing WordPress (enterprise-level platform) and offering technical support to the company.
+      *	Utilized technologies such as RDF, SPARQL, and Python libraries for semantic data processing, enhancing the group's capabilities in semantic web technologies.
