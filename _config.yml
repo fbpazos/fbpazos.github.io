@@ -50,14 +50,16 @@ gtag: "G-M63WSJK6VF"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I combine mathematics, multi-agent AI, and cloud-native engineering to translate complex domains into reliable enterprise products. My work spans from launching Azure- and AutoGen-powered platforms at DXC to researching advanced RAG, digital twins, and intelligent automation at IDOM, always with an eye toward measurable operational impact.
+  I am an **AI Engineer & Technical Leader** with a double background in **Mathematics and Computer Science** (UPM, GPA 9.4/10) and an **MSc in Applied & Computational Mathematics** (UC3M). I bridge mathematical rigor with cloud-native engineering to design deterministic, enterprise-grade AI platforms that solve high-stakes operational challenges.
 
-  My Applied & Computational Mathematics master's from Universidad Carlos III de Madrid and my background in research and consulting keep me grounded in structured reasoning, while I guide cross-functional teams toward production-ready innovations that integrate analytics, automation, and DevOps best practices.
+  Currently at **DXC Technology**, I lead engineering initiatives spanning **Multi-Agent orchestration** (AutoGen, Google ADK, MCP), deterministic Generative AI presales pipelines (>95% cycle-time reduction), and automated SOX compliance audit systems. Trusted by enterprise clients and cross-functional teams, I specialize in translating complex business requirements into inspectable, high-throughput AI architectures with strict quality gates and zero-tolerance governance.
 
-  I am most skilled in: <mark>Python</mark>, <mark>Azure</mark>, <mark>multi-agent orchestration</mark>, and <mark>mathematics</mark>
+  Beyond engineering, I cultivate relentless discipline and mental endurance through competitive athletics (<mark>CrossFit</mark>, <mark>Spartan Race</mark>, <mark>Hyrox</mark>, and open-water marathon swimming) and 4+ years as an international orchestral violinist.
+
+  **Core Expertise:** <mark>Multi-Agent Systems</mark> <mark>Generative AI & LLM Architecture</mark> <mark>Applied Mathematics</mark> <mark>Azure Cloud Architecture</mark> <mark>Python</mark> <mark>Enterprise Governance & MLOps</mark>
 
   Download my CV:
-    - [In English](files/CV Fernando BP - Sept2026.pdf)
+    - [Download CV (September 2026)](files/CV Fernando BP - Sept2026.pdf)
 
 # Sections are now managed modularly in _data/
 # See _data/sections.yml and individual YAML files (_data/experience.yml, _data/education.yml, etc.)
