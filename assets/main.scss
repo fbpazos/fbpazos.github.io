@@ -5,7 +5,7 @@
 @import 'modern-resume-theme';
 
 /* ==========================================================================
-   Modern, High-Impact Portfolio Layout (Full Real-Estate Utilization)
+   Modern, High-Impact Portfolio Layout (Bold Typographic Hierarchy)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=JetBrains+Mono:wght@400;500;600&display=swap');
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-left h1 {
-  font-size: 2.6rem !important;
+  font-size: 2.85rem !important;
   font-weight: 800 !important;
   color: var(--color-text-primary) !important;
   letter-spacing: -0.035em !important;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-left h2 {
-  font-size: 1.2rem !important;
+  font-size: 1.35rem !important;
   font-weight: 500 !important;
   color: var(--color-text-muted) !important;
   margin: 0 !important;
@@ -181,12 +181,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: var(--radius-sm);
   background-color: var(--color-accent-light);
   color: var(--color-primary);
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   transition: all 0.2s ease;
   border: 1px solid var(--color-accent-border);
 }
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-right p {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: var(--color-text-muted);
   margin-bottom: 4px;
   display: flex;
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-right p a {
   color: var(--color-text-primary);
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.15s ease;
 }
 
@@ -223,26 +223,26 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
 }
 
-/* Section Headings */
+/* Major Section Headings (e.g. ABOUT ME, EXPERIENCE, EDUCATION) */
 .wrapper h3 {
-  font-size: 1.15rem !important;
+  font-size: 1.65rem !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
+  letter-spacing: 0.04em !important;
   font-weight: 800 !important;
   color: var(--color-text-primary) !important;
   text-align: left !important;
   border-bottom: 2px solid var(--color-border) !important;
-  border-left: 5px solid var(--color-primary) !important;
-  padding: 4px 0 8px 14px !important;
-  margin-top: 44px !important;
-  margin-bottom: 28px !important;
+  border-left: 6px solid var(--color-primary) !important;
+  padding: 6px 0 10px 16px !important;
+  margin-top: 48px !important;
+  margin-bottom: 30px !important;
 }
 
 /* About Section Layout */
 .intro-container .row {
   display: flex !important;
   align-items: center !important;
-  gap: 36px !important;
+  gap: 40px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -254,14 +254,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-container .col-sm-4,
 .intro-container .col-md-3 {
-  flex: 0 0 170px !important;
-  max-width: 170px !important;
+  flex: 0 0 180px !important;
+  max-width: 180px !important;
   padding: 0 !important;
 }
 
 .intro-container .profile-img {
-  width: 160px !important;
-  height: 160px !important;
+  width: 170px !important;
+  height: 170px !important;
   border-radius: var(--radius-full) !important;
   box-shadow: var(--shadow-md) !important;
   border: 4px solid #ffffff !important;
@@ -282,14 +282,14 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1 !important;
   max-width: 100% !important;
   padding: 0 !important;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.8;
 }
 
 .intro-container ul {
   list-style: none !important;
   padding-left: 0 !important;
-  margin-top: 12px !important;
+  margin-top: 14px !important;
 }
 
 .intro-container ul li {
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex !important;
   align-items: flex-start !important;
   gap: 40px !important;
-  padding: 24px 0 !important;
+  padding: 28px 0 !important;
   border-bottom: 1px solid var(--color-border) !important;
   transition: background-color 0.2s ease;
 }
@@ -321,8 +321,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Left Column: Role, Company, Date, Meta */
 .layout .details {
-  flex: 0 0 280px !important;
-  max-width: 280px !important;
+  flex: 0 0 300px !important;
+  max-width: 300px !important;
   padding: 0 !important;
 }
 
@@ -334,33 +334,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .layout .details h4 {
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin: 0 0 6px 0;
-  line-height: 1.35;
-  color: var(--color-text-primary);
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.3 !important;
+  color: var(--color-text-primary) !important;
 }
 
 .layout .details p {
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-  margin: 0 0 6px 0;
-  line-height: 1.4;
+  font-size: 0.95rem !important;
+  color: var(--color-text-muted) !important;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.4 !important;
 }
 
 .layout .details p b {
-  color: var(--color-text-primary);
+  color: var(--color-text-primary) !important;
+  font-weight: 600 !important;
 }
 
 .layout .details .link {
   display: inline-flex;
   align-items: center;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: var(--color-primary);
   text-decoration: none;
-  margin-top: 4px;
-  padding: 3px 10px;
+  margin-top: 6px;
+  padding: 4px 12px;
   background-color: var(--color-accent-light);
   border: 1px solid var(--color-accent-border);
   border-radius: var(--radius-sm);
@@ -379,15 +380,16 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100% !important;
   padding: 0 !important;
   color: var(--color-text-secondary);
-  font-size: 0.98rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
 .layout .content h2 {
-  font-size: 1.25rem;
-  font-weight: 800;
-  margin: 0 0 10px 0;
-  color: var(--color-text-primary);
+  font-size: 1.45rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+  margin: 0 0 10px 0 !important;
+  color: var(--color-text-primary) !important;
 }
 
 .layout .content hr {
@@ -412,15 +414,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-container h2 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-top: 28px;
-  margin-bottom: 10px;
-  color: var(--color-text-primary);
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  margin-top: 32px !important;
+  margin-bottom: 12px !important;
+  color: var(--color-text-primary) !important;
 }
 
 .text-container h2:first-of-type {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .text-container hr {
@@ -444,9 +446,9 @@ mark {
   color: var(--color-primary) !important;
   border: 1px solid var(--color-accent-border) !important;
   border-radius: var(--radius-sm) !important;
-  padding: 3px 9px !important;
+  padding: 3px 10px !important;
   font-family: var(--font-sans) !important;
-  font-size: 0.88em !important;
+  font-size: 0.9em !important;
   font-weight: 600 !important;
   display: inline-block !important;
   margin: 3px 2px !important;
@@ -478,10 +480,10 @@ a[href*=".pdf"] {
   gap: 8px;
   background-color: var(--color-primary);
   color: #ffffff !important;
-  padding: 9px 18px;
+  padding: 10px 20px;
   border-radius: var(--radius-sm);
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   box-shadow: var(--shadow-sm);
   text-decoration: none !important;
   transition: all 0.2s ease;
