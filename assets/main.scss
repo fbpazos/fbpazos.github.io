@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
 }
 
-/* Bullet Points Under Initiatives */
+/* Bullet Points & Description Lists */
 .layout .content ul {
   list-style: disc !important;
   padding-left: 24px !important;
@@ -491,9 +491,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .layout .content ul li {
   color: var(--color-text-secondary);
-  font-size: 1.01rem;
-  line-height: 1.8;
-  margin-bottom: 10px !important;
+  font-size: 1.12rem !important;
+  line-height: 1.8 !important;
+  margin-bottom: 12px !important;
+}
+
+.layout .content ul li b,
+.layout .content ul li strong {
+  color: var(--color-text-primary) !important;
+  font-weight: 700 !important;
+}
+
+/* Code Snippets & Credential IDs */
+code {
+  font-family: var(--font-mono) !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  background-color: #f8fafc !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid #cbd5e1 !important;
+  padding: 3px 10px !important;
+  border-radius: var(--radius-sm) !important;
+  display: inline-block !important;
+  letter-spacing: 0.02em;
 }
 
 /* Text Containers (Projects, Awards, Interests) */
