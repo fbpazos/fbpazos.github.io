@@ -1,0 +1,23 @@
+- layout: left
+  title: Claude Partner Badge - Claude Code
+  sub_title: Anthropic
+  caption: Issued Aug. 2026 · Expires Feb. 2027
+  description: |
+    * **Issuer**: Anthropic
+    * **Credential ID**: `143ab35e-21c3-4988-bfee-b0150a67f5f`
+
+- layout: left
+  title: Claude Certified Associate - Foundations
+  sub_title: Anthropic
+  caption: Issued Aug. 2026 · Expires Aug. 2027
+  description: |
+    * **Issuer**: Anthropic
+    * **Credential ID**: `2ebf03ef-f068-4a42-b138-07f6319d1295`
+
+- layout: left
+  title: "Microsoft Certified: Azure AI Fundamentals"
+  sub_title: Microsoft
+  caption: Issued Jan. 2025
+  description: |
+    * **Issuer**: Microsoft
+    * **Credential ID**: `E7243975041289D2`

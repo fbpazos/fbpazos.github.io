@@ -1,0 +1,23 @@
+{% assign about_data = site.data[include.page_lang].about %}
+<div class="container intro-container">
+  <h3 id="{{ include.ui.about_title | default: 'About Me' | slugify }}">{{ include.ui.about_title | default: "About Me" }}</h3>
+  <div class="row clearfix">
+    <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+      <span class="profile-img" style="background-image: url({{ site.about_profile_image | default: 'images/profile.jpg' | relative_url }})"></span>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      {%- if about_data.content -%}
+        {{ about_data.content | markdownify }}
+      {%- else -%}
+        {{ site.about_content | markdownify }}
+      {%- endif -%}
+
+      <p class="download-cv-wrapper">
+        <a href="{{ include.ui.cv_file | default: 'files/CV Fernando BP - Sept2026.pdf' | relative_url }}" class="cv-download-btn" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          {{ include.ui.download_cv | default: "Download CV (September 2026)" }}
+        </a>
+      </p>
+    </div>
+  </div>
+</div>

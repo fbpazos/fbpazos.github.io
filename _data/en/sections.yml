@@ -1,0 +1,27 @@
+- title: Experience
+  layout: list
+  data: experience
+
+- title: Client Recommendations & Endorsements
+  layout: list
+  data: recommendations
+
+- title: Certifications
+  layout: list
+  data: certifications
+
+- title: Education
+  layout: list
+  data: education
+
+- title: Projects
+  layout: text
+  data: projects
+
+- title: Honors and Awards
+  layout: text
+  data: awards
+
+- title: A Little More About Me
+  layout: text
+  data: interests

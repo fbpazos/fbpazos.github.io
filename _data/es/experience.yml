@@ -1,0 +1,84 @@
+- layout: left
+  title: AI Engineer & Technical Leader
+  company: DXC Technology
+  link: https://dxc.com/es
+  link_text: DXC.com
+  sub_title: Zaragoza, España
+  caption: Ene. 2025 – Sept. 2026
+  roles:
+    - title: AI Solutions Engineer - GenAI & Arquitectura
+      summary: Lideré el análisis funcional, la arquitectura y el desarrollo integral de un pipeline empresarial de IA Generativa para acelerar la preventa técnica, reemplazando el análisis manual de licitaciones (RFP) por un sistema determinista de extracción estructurada y auditoría multi-agente (>95% de ahorro de tiempo).
+      details: |
+        * **Arquitectura y Ciclo de Vida**: Mapeé el ciclo de vida de la oportunidad en 8 etapas (Fases 0–7) y diseñé un conjunto modular de 9 capacidades para mitigar riesgos críticos, incluyendo penalizaciones ocultas, inconsistencias de tono/estilo y descalificación de ofertas por cruce de sobres.
+        * **Extracción Determinista (Schema-First)**: Desarrollé un motor basado en LLMs de contexto amplio y parsing documental estructurado (Docling/PyMuPDF). Bypaseé el RAG vectorial en favor de contratos de datos estrictos y autorreparables con Pydantic v2, estructurando más de 450 elementos con trazabilidad completa y citas textuales.
+        * **Evaluación Multi-Agente**: Diseñé un comité de revisión virtual (Árbitro Neutral junto a evaluadores de riesgo técnico y financiero) para auditar propuestas de más de 150 páginas contra especificaciones de pliegos, emitiendo veredictos cláusula por cláusula con justificación detallada y evidencia textual.
+        * **Gobernanza y Human-in-the-Loop**: Implementé un entorno de ejecución inspeccionable con puertas de calidad (Gate M4), aislamiento en nube empresarial (políticas de cero entrenamiento de datos) y registro de auditoría de extremo a extremo.
+        * **Impacto y Validación Empírica**: Validé el MVP en licitaciones reales (RFP de 34 páginas vs. propuesta de 153 páginas), reduciendo la generación de matrices de cumplimiento de 16–47 horas a menos de 10 minutos (>95% de ahorro de tiempo) con 100% de cobertura en más de 320 requisitos (<7% de varianza).
+
+    - title: Sistema de Auditoría de IA
+      summary: Líder de entrega técnica para una solución agéntica de auditoría de cumplimiento SOX construida con Google ADK, proporcionando validación automatizada de evidencias para Control Owners y reduciendo significativamente la carga de auditoría.
+      details: |
+        * **Liderazgo Técnico**: Lideré la entrega técnica, gestionando desarrolladores y coordinando con la gestión de proyectos mientras desarrollaba la solución principal de IA.
+        * **Análisis Agéntico de Evidencias**: Construí el sistema agéntico utilizando Google ADK para analizar evidencias de auditoría subidas (múltiples formatos y tamaños) y determinar su suficiencia frente a los controles SOX.
+        * **Validación Previa a la Entrega**: Generé informes detallados analizados por IA para los Control Owners, proporcionando una validación previa a la presentación que antes no estaba disponible.
+        * **Reducción de Costes y Esfuerzo**: Reduje significativamente el tiempo de los auditores para la verificación de evidencias, logrando importantes ahorros de costes al minimizar los recursos de auditoría necesarios.
+        * **Calidad del Cumplimiento**: Doté a los Control Owners de un inventario preciso y una verificación de validación, agilizando la preparación de evidencias y mejorando la calidad del cumplimiento normativo.
+
+    - title: Liderazgo de Plataforma de IA Empresarial
+      summary: Dirigí equipos multidisciplinares para diseñar y desplegar una plataforma de IA multi-agente basada en Microsoft AutoGen sobre Azure, gestionando microservicios y pipelines de datos en tiempo real procesando más de 1M de registros.
+      details: |
+        * **Arquitectura Multi-Agente**: Lideré equipos multidisciplinares para diseñar y lanzar una plataforma de IA multi-agente basada en Microsoft AutoGen, gestionando microservicios y arquitectura nativa en la nube sobre Azure.
+        * **Agentes Inteligentes**: Diseñé agentes inteligentes (geoespaciales, siniestros, automatización de decisiones) a escala empresarial utilizando Azure OpenAI GPT-4o.
+        * **Pipelines Basados en Eventos**: Diseñé pipelines de datos basados en eventos (Azure EventHub, 99.9% de fiabilidad), procesando más de 1M de registros.
+        * **Hoja de Ruta y Despliegue**: Asumí la responsabilidad de entrega integral desde la hoja de ruta técnica hasta el despliegue en producción empresarial.
+        * **DevOps y Validación de Modelos**: Construí pipelines de CI/CD, automatización de DevOps y marcos de validación de modelos de IA para sistemas de producción escalables.
+        * **Mentoría de Equipos**: Impartí mentoría a los equipos en IA avanzada, orquestación multi-agente y entornos de ejecución seguros.
+
+    - title: Plataforma Agéntica de Gestión y Automatización de Tráfico
+      summary: Arquitecté e implementé un motor de planificación geoespacial multi-agente para automatizar esquemas temporales de gestión de tráfico a partir de solicitudes de obras viarias, utilizando Google ADK, Agent2Agent, MCP, PostgreSQL y Kubernetes.
+      details: |
+        * **Motor de Planificación Geoespacial**: Diseñé e implementé un motor de planificación geoespacial multi-agente para automatizar diseños temporales de gestión de tráfico a partir de solicitudes de obras viarias, utilizando Google ADK, Agent2Agent, MCP, PostgreSQL, Azure y Kubernetes.
+        * **Capa de Orquestación**: Construí una capa de orquestación que coordina agentes especializados y herramientas MCP compartidas, garantizando flujos de trabajo deterministas y auditables con una clara separación entre lógica de negocio, normativas y computación geoespacial.
+        * **Integración Empresarial**: Integré la plataforma con los sistemas empresariales existentes (incluyendo CRM y herramientas de gestión de obras) mediante adaptadores dedicados, permitiendo la automatización integral desde la recepción de la solicitud hasta los planos de tráfico listos para su despliegue.
+        * **Estandarización y Calidad**: Mejoré la velocidad de entrega y la coherencia de los diseños de gestión de tráfico al estandarizar los cálculos, reduciendo el esfuerzo de configuración manual y disminuyendo el riesgo de error humano en la definición de esquemas.
+
+- layout: left
+  title: Consultor e Innovador de Sistemas
+  company: IDOM | Consulting, Engineering, Architecture
+  link: https://idom.com
+  link_text: IDOM.com
+  sub_title: Bilbao, España
+  caption: Sept. 2023 – Dic. 2024
+  roles:
+    - title: Innovador de Sistemas
+      summary: Impulsé la investigación y desarrollo en Gemelos Digitales (Autodesk Tandem y Azure IoT), sistemas internos de RAG, clasificación NLP con BERT e infraestructura dockerizada de desarrollo de IA.
+      details: |
+        * **PoC Gemelo Digital**: Desarrollé una Prueba de Concepto de Gemelo Digital utilizando Autodesk Tandem y Azure IoT Hub, en conjunto con Azure Stream Analytics y Azure ML Studio, demostrando capacidades predictivas superiores a los métodos de monitorización tradicionales.
+        * **RAG Interno y Asistente IA**: Dirigí el I+D teórico de un innovador sistema interno de Generación Aumentada por Recuperación (RAG), mejorando la comprensión del lenguaje y creando un asistente corporativo basado en LLMs.
+        * **Clasificación NLP con BERT**: Desarrollé un clasificador de IA utilizando NLP y el modelo BERT de Google, complementado con ontologías para categorización avanzada a partir de descripciones de proyectos.
+        * **Generador Automatizado de CVs**: Innové un generador de currículums integrado con el sistema interno Success Factors de S&P, abarcando ingesta de datos, redacción generativa determinista y compilación de plantillas.
+        * **Infraestructura de IA**: Arquitecté y desplegué una infraestructura de desarrollo de IA contenerizada en Docker con monitorización de recursos en tiempo real, enrutamiento con Traefik y herramientas como Stable Diffusion.
+
+    - title: Consultoría – Transformación Digital
+      summary: Desarrollé pipelines automatizados de datos tabulares con Azure Document Intelligence y Phi-3.5 para SAP, modelos predictivos de mantenimiento de activos y metodologías de valoración catastral.
+      details: |
+        * **Pipeline de Datos SAP**: Desarrollé un pipeline automatizado con Azure Document Intelligence y Azure Phi-3.5 para estructurar datos tabulares bajo convenciones de nomenclatura de SAP, reduciendo el tiempo de procesado y mejorando la consistencia.
+        * **Mantenimiento Inteligente de Activos**: Lideré el desarrollo de modelos matemáticos y de IA para transformar el mantenimiento de activos de reactivo a proactivo mediante módulos IoT y Gestión Inteligente de S&P.
+        * **Valoración Estadística Catastral**: Desempeñé un rol clave como Estadístico colaborando con la oficina de registro, creando un método de cálculo para la valoración de inmuebles en el País Vasco.
+
+- layout: left
+  title: Becario de Análisis de Datos y Desarrollo
+  company: Ontology Engineering Group
+  link: https://oeg.fi.upm.es/
+  link_text: oeg.fi.upm.es
+  sub_title: Madrid, España
+  caption: Sept. 2021 – Sept. 2022
+  roles:
+    - title: Becario de Análisis de Datos y Desarrollo
+      summary: Desarrollé pipelines para la construcción de grafos de conocimiento a partir de repositorios académicos institucionales utilizando RDF y SPARQL, incrementando la eficiencia de ingesta en un 40%.
+      details: |
+        * **Construcción de Grafos de Conocimiento**: Desarrollé un sistema para generar grafos de conocimiento a partir de publicaciones académicas en repositorios institucionales para consultas avanzadas en Ciencia Abierta.
+        * **Extracción de Metadatos y Relaciones**: Analicé grandes volúmenes de publicaciones para extraer metadatos y relaciones semánticas, facilitando el análisis y la investigación.
+        * **Modelado Ontológico**: Implementé modelos ontológicos para representar información académica compleja, asegurando interoperabilidad e integración con otras fuentes.
+        * **Ingesta Automatizada**: Optimicé los procesos de ingesta de datos automatizando la extracción de metadatos y la anotación semántica, aumentando la eficiencia en un 40%.
+        * **Stack Web Semántica**: Utilicé tecnologías como RDF, SPARQL y librerías de Python para procesamiento semántico.

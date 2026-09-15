@@ -1,0 +1,27 @@
+- title: Experiencia Profesional
+  layout: list
+  data: experience
+
+- title: Recomendaciones de Clientes y Avales
+  layout: list
+  data: recommendations
+
+- title: Certificaciones
+  layout: list
+  data: certifications
+
+- title: Educación
+  layout: list
+  data: education
+
+- title: Proyectos Destacados
+  layout: text
+  data: projects
+
+- title: Premios y Reconocimientos
+  layout: text
+  data: awards
+
+- title: Sobre Mí
+  layout: text
+  data: interests

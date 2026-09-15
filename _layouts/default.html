@@ -3,6 +3,9 @@
 
 {%- include head.html -%}
 
+{% assign page_lang = page.lang | default: 'en' %}
+{% assign ui = site.data[page_lang].ui %}
+
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   <main class="page-content" aria-label="Content">
@@ -12,33 +15,25 @@
         {%- include gtm_body.html -%}
       {%- endif -%}
 
-      {%- include header.html -%}
+      {%- include header.html page_lang=page_lang ui=ui -%}
 
-      {%- include about.html -%}
+      {%- include about.html page_lang=page_lang ui=ui -%}
 
-      {%- if site.data.sections -%}
-        {% for section in site.data.sections %}
+      {% assign lang_sections = site.data[page_lang].sections | default: site.data.sections %}
+      {% if lang_sections %}
+        {% for section in lang_sections %}
           <div class="container {{ section.layout }}-container">
             <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-            {% assign data_file = site.data[section.data] %}
+            {% assign data_file = site.data[page_lang][section.data] | default: site.data[section.data] %}
             {% if data_file.content %}
               {% assign section_content = data_file.content %}
             {% else %}
               {% assign section_content = data_file %}
             {% endif %}
-            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section_content section_name=section.data %}
+            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section_content section_name=section.data page_lang=page_lang ui=ui %}
           </div>
         {% endfor %}
-      {%- elsif site.version == 2 -%}
-        {% for section in site.content %}
-          <div class="container {{ section.layout }}-container">
-            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
-            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-          </div>
-        {% endfor %}
-      {%- else -%}
-        {%- include v1/default.html -%}
-      {%- endif -%}
+      {% endif %}
 
       {%- include footer.html -%}
     </div>

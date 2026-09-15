@@ -1,0 +1,16 @@
+content: |
+  ## Métodos Numéricos Básicos en Python - Orientado a Estudiantes (Junio 2023)
+  ---
+  Mi Trabajo de Fin de Máster tuvo como objetivo desarrollar un proyecto de código abierto en PyPi que incluye implementaciones en script de métodos numéricos universitarios y una interfaz gráfica interactiva en Jupyter para su visualización en tiempo real. La meta es facilitar la comprensión de los algoritmos e impulsar el aprendizaje de Python frente a MATLAB en el mercado actual.
+  
+  *	Este proyecto fue galardonado con el premio al **'Proyecto Más Innovador de 2023'** por Logicalis en el __Logicalis Innovation Challenge__, reconociendo su impacto potencial en la educación técnica.
+
+  * **Tecnologías**: Python, Jupyter, Numpy, BQPlot, iPyWidgets
+  * **Enlace**: [github.com/fbpazos/Trabajo-Fin-Master](https://github.com/fbpazos/Trabajo-Fin-Master)
+
+  ## Problema de Sturm-Liouville y Modelos Basados en Ecuaciones Diferenciales en Acústica (Junio 2022)
+  ---
+  Estudio exhaustivo de la teoría de Sturm-Liouville y modelado de instrumentos musicales de cuerda para explorar la interconexión entre matemáticas y música. La investigación analizó los factores físico-matemáticos que determinan el timbre del violín y el piano mediante ecuaciones diferenciales y análisis funcional.
+  
+  * **Tecnologías**: Python, LaTeX, Matplotlib, Plotly, SymPy, NumPy, Jupyter, Ecuaciones Diferenciales, Análisis Funcional.
+  * **Enlace**: [oa.upm.es/70879](https://oa.upm.es/70879/)

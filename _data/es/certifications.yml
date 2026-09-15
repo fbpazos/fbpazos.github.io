@@ -1,0 +1,23 @@
+- layout: left
+  title: Claude Partner Badge - Claude Code
+  sub_title: Anthropic
+  caption: Expedida Ago. 2026 · Caduca Feb. 2027
+  description: |
+    * **Emisor**: Anthropic
+    * **ID de Credencial**: `143ab35e-21c3-4988-bfee-b0150a67f5f`
+
+- layout: left
+  title: Claude Certified Associate - Foundations
+  sub_title: Anthropic
+  caption: Expedida Ago. 2026 · Caduca Ago. 2027
+  description: |
+    * **Emisor**: Anthropic
+    * **ID de Credencial**: `2ebf03ef-f068-4a42-b138-07f6319d1295`
+
+- layout: left
+  title: "Microsoft Certified: Azure AI Fundamentals"
+  sub_title: Microsoft
+  caption: Expedida Ene. 2025
+  description: |
+    * **Emisor**: Microsoft
+    * **ID de Credencial**: `E7243975041289D2`

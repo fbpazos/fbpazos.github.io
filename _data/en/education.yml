@@ -1,0 +1,25 @@
+- layout: left
+  title: Carlos III University of Madrid
+  link: https://www.uc3m.es/master/applied-mathematics
+  link_text: uc3m.es/master/applied-mathematics
+  caption: Sept. 2022 - June 2023
+  sub_title: Madrid, Spain
+  description: |
+    ## MSc in Applied & Computational Mathematics [English]
+    ---
+    * **GPA**: 8.38/10 with 1 Honourable Mention in **Advanced Analysis**.
+
+    * **Relevant Coursework**: Biological Inspired Artificial Intelligence, Modelling and Nonlinear Analysis, Optimization, Stochastic Equations for Finance and Biology, Complex Biological and Socioeconomic systems, Computational Linear Algebra, Computational techniques for Differential equations, Methods for Nonlinear differential equations, Applied discrete mathematics.
+
+- layout: left
+  title: Madrid’s Polytechnic University
+  link: http://www.fi.upm.es/?id=gradomatematicasinformatica&idioma=english
+  link_text: fi.upm.es
+  caption: Sept. 2018 - June 2022
+  sub_title: Madrid, Spain
+  description: |
+    ## Bachelor’s degree in mathematics & computer science [Spanish]
+    ---
+    * **GPA**: 9.4/10 with 14 Honourable mentions.
+
+    * **Relevant Coursework**: Data Analysis, Software Engineering, Operating Systems, Artificial Intelligence, Databases, Modelling, Programming (Imperative, Object Oriented, Functional, Logic, Systems), IT Project Management, Topology, Calculus, Algebra, Pure Mathematics.
