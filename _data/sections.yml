@@ -2,6 +2,10 @@
   layout: list
   data: experience
 
+- title: Client Recommendations & Endorsements
+  layout: list
+  data: recommendations
+
 - title: Certifications
   layout: list
   data: certifications
