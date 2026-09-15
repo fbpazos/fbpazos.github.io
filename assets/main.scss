@@ -321,8 +321,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Left Column: Role, Company Link, Date Badge, Location */
 .layout .details {
-  flex: 0 0 290px !important;
-  max-width: 290px !important;
+  flex: 0 0 320px !important;
+  max-width: 320px !important;
   padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Role / Degree Title */
 .layout .details h4 {
-  font-size: 1.45rem !important;
+  font-size: 1.6rem !important;
   font-weight: 800 !important;
   margin: 0 0 8px 0 !important;
   line-height: 1.25 !important;
@@ -347,29 +347,30 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Location / Language */
 .layout .details p {
-  font-size: 1.02rem !important;
+  font-size: 1.1rem !important;
   color: var(--color-text-muted) !important;
-  margin: 0 0 6px 0 !important;
+  margin: 0 0 8px 0 !important;
   line-height: 1.4 !important;
 }
 
 .layout .details p b {
   color: var(--color-text-primary) !important;
   font-weight: 700 !important;
+  font-size: 1.15rem !important;
 }
 
 /* Dates Styled as High-Contrast Pill Badge */
 .layout .details p:nth-of-type(2) {
   display: inline-block !important;
-  font-size: 0.92rem !important;
+  font-size: 0.98rem !important;
   font-weight: 700 !important;
   color: var(--color-primary) !important;
   background-color: var(--color-accent-light) !important;
-  border: 1px solid var(--color-accent-border) !important;
-  padding: 3px 12px !important;
+  border: 1.5px solid var(--color-accent-border) !important;
+  padding: 4px 14px !important;
   border-radius: var(--radius-sm) !important;
   margin-top: 4px !important;
-  margin-bottom: 12px !important;
+  margin-bottom: 14px !important;
 }
 
 /* Prominent Company Link Button */
@@ -381,14 +382,14 @@ h1, h2, h3, h4, h5, h6 {
   max-width: max-content !important;
   align-self: flex-start !important;
   font-weight: 700 !important;
-  font-size: 0.95rem !important;
+  font-size: 1rem !important;
   color: #ffffff !important;
   background-color: var(--color-primary) !important;
   border: 1px solid var(--color-primary) !important;
   border-radius: var(--radius-sm) !important;
   text-decoration: none !important;
   margin-top: 4px !important;
-  padding: 6px 18px !important;
+  padding: 7px 20px !important;
   transition: all 0.2s ease !important;
   box-shadow: var(--shadow-sm) !important;
 }
