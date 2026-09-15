@@ -1,0 +1,21 @@
+{
+  "name": "Fernando Bellido - Portfolio Devcontainer",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "site",
+  "workspaceFolder": "/srv/jekyll",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Web Server",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

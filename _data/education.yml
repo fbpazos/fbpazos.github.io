@@ -1,0 +1,43 @@
+- layout: left
+  title: Universidad Carlos III de Madrid
+  link: https://www.uc3m.es/master/applied-mathematics
+  link_text: uc3m.es/master/applied-mathematics
+  caption: 2022 - 2023
+  sub_title: English
+  description: |
+    ## MSc in Applied & Computational Mathematics 
+    ---
+    * Average grade: 8.38/10 with 1 Honorable Mention on **Advanced Methods in Analysis**.
+
+    * Course work: Biological Inspired Artificial Intelligence, Modelling and Nonlinear Analysis, Optimization, Stochastic Equations for Finance and Biology, Complex Biological and Socioeconomic systems, Computational Linear Algebra, Computational techniques for Differential equations, Methods for Nonlinear differential equations, Applied discrete mathematics.
+
+    * Master's Description: The Master's Degree in Computational and Applied Mathematics offered by Universidad Carlos III de Madrid responds to such a demand, by emphasizing a double, computational and mathematical, approach to solving realistic problems, offering multidisciplinar education to holders of STEM Bachelor degrees which, from a solid basic training, is oriented towards the development of quantitative and computational methods which can be applied to a wide spectrum of disciplines.
+
+- layout: left
+  title: Universidad Politécnica de Madrid
+  link: http://www.fi.upm.es/?id=gradomatematicasinformatica&idioma=english
+  link_text: fi.upm.es/?id=gradomatematicasinformatica
+  caption: 2018 - 2022
+  sub_title: Spanish
+  description: |
+    ## BSc in Mathematics and Computer Science
+    ---
+    * Average grade: 9.4/10 with 14 Honorable Mentions.
+
+    * Courses: Databases, Operative Systems, Data Structures, Data Analytics, Artificial Intelligence, Programming (Object Oriented, imperative, functional and logic), Functional Analysis, Applied & Computational Topology and Pure Mathematics.
+
+    * Degree Description: The ultimate purpose of the degree is to know the nature, methods, and most relevant purposes of Mathematics, and to have general knowledge of Computer Science and the interrelation between both disciplines. 
+                          Companies in the I.T. sector, such as IBM, have noted the growing demand for professionals with good knowledge of computing and mathematics, who can also serve as a link between experts in the two disciplines.
+
+- layout: left
+  title: Trinity College San Sebastían de los Reyes
+  link: https://trinitycollegessreyes.es/
+  link_text: trinitycollegessreyes.es
+  caption: 2018 - 2022
+  sub_title: Spanish
+  description: |
+    ## Baccalaureate in Technological Sciences
+    ---
+    * Average grade: 13.46/14 with 5 Honorable Mentions.
+
+    * Courses: Mathematics, Physics, Technical Drawing, Information Technology, Industrial Engineering and Psychology.

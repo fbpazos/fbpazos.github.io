@@ -1,0 +1,27 @@
+content: |
+  ## Basic Numerical Methods in Python - Student Oriented (2023)
+  ---
+  My end of master's thesis aims to develop an open-source PyPi project that includes a scripted version of the numerical methods taught in universities and a Jupyter-integrated GUI for real-time visualization of those. The goal is to help students understand the methods and promote learning Python instead of MATLAB, which is not as popular or accessible as Python in the current job market.
+  
+  *	This project was awarded the **'Most Innovative Project of 2023'** by Logicalis in the __Logicalis Innovation Challenge__, recognizing its potential to significantly impact educational practices and student learning experiences.
+
+
+  * Tech: Python, Jupyter, Numpy, BQPlot, iPyWidgets
+  * Link: [github.com/fbpazos/Trabajo-Fin-Master](https://github.com/fbpazos/Trabajo-Fin-Master)
+
+  ## The Sturm-Liouville problem and models based on differential equations in the field of acoustics (2022)
+  ---
+  Pursued a comprehensive study of the Sturm-Liouville theory and modeled stringed musical instruments to explore the relationship between mathematics and music. The aim of the research was to answer questions such as: what factors contribute to the distinct sound of instruments like a violin and a piano, and how does mathematics play a role in the creation of music.
+  
+  * Tech: Python, Latex, Matplotlib, Plotly, Sympy, NumPy,Jupyter, Differential Equations, Functional Analysis.
+  * Link: [oa.upm.es/70879](https://oa.upm.es/70879/)
+
+
+  ## S.I.R. Modelling in Python (2021)
+  ---
+  Involved in research-focused, open-source analysis of Covid-19 to gain insight into the mathematical models of the S.I.R. (Susceptible, Infected, Recovered) dynamics during the pandemic.
+
+  The objective of this analysis was to gain a deeper understanding of the spread of the virus and its impact on populations, using mathematical models to inform the findings.
+
+  * Tech: Python, Jupyter
+  * Link: [github.com/fbellidopazos/covidSIRAnalysis](https://github.com/fbellidopazos/covidSIRAnalysis)

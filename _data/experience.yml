@@ -1,0 +1,141 @@
+- layout: left
+  title: AI Engineer & Technical Leader
+  link: https://dxc.com/es
+  link_text: DXC.com
+  sub_title: Zaragoza, Spain
+  caption: January 2025 - Today
+  description: |
+      ## DXC Technology
+      ---
+      1.	Enterprise AI Platform Leadership:
+
+          *	Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing various microservices and cloud-native architecture on Azure.
+
+          *	Architected intelligent agents (geospatial, claims, decision automation) at enterprise scale using Azure OpenAI GPT-4o.
+
+          *	Designed event-driven data pipelines (Azure EventHub, 99.9% reliability), processing over 1M records.
+
+          *	Owned end-to-end delivery from technical roadmap to enterprise deployment.
+
+          *	Built DevOps pipelines, CI/CD automation, and AI model validation frameworks for scalable production systems.
+
+          *	Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
+
+
+      2.	Agentic Traffic Management Automation Platform: 
+
+          *	Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests, using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure and Kubernetes.
+
+          *	Built an orchestration layer coordinating specialised agents and shared MCP tools, ensuring deterministic, auditable workflows and clean separation between business logic, standards and geospatial computation.
+
+          *	Integrated the platform with existing enterprise systems (including CRM and work management tools) via dedicated adapters, enabling end-to-end automation from request intake to deployment-ready traffic plans.
+
+          *	Improved delivery speed and consistency of traffic management designs by standardising computations, reducing manual configuration effort and lowering the risk of human error in layout definition.
+
+
+      3.	Contract Intelligence Platform
+
+          *	Built production-grade conversational AI with Google ADK & RAG, enabling 10K+ contract searches with >90% retrieval accuracy.
+
+          *	Developed concurrent AI pipelines for contract term extraction via Azure OpenAI GPT — cutting processing time by 70%.
+
+          *	Engineered microservice architecture with Model Context Protocol (MCP), vector search (Azure AI Search), and real-time streaming APIs.
+
+          *	Delivered full-stack platform (FastAPI, PostgreSQL, Azure AKS, Azure AD) with robust cloud infrastructure and auto-scaling Kubernetes deployments.
+
+          *	Automated legal compliance reviews, reducing review cycles from days to minutes.
+
+- layout: left
+  title: AI Innovator & Digital Transformation Consultant
+  link: https://idom.com
+  link_text: IDOM.com
+  sub_title: Bilbao, Spain
+  caption: September 2023 - December 2024
+  description: |
+      ## IDOM
+      ---
+      1.	System Innovator: 
+          *	Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities. Demonstrated that this approach could outperform traditional human monitoring systems by providing real-time data integration and predictive analytics. 
+          
+          *	Directed the theoretical research & development of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced AI technologies & Large Language Models (LLM) to drive organizational progress and innovation. 
+
+          *	Pioneered the development of an AI classifier using NLP and the Google's BERT language model, complemented by an ontology-based approach, for sophisticated categorization derived from comprehensive project descriptions.
+
+          *	Innovated a CV generator grounded in the S&P's Success Factors internal system, featuring a multi-layered approach encompassing data ingestion, AI-driven & deterministic data processing paragraph generation, template compilation, and polished CV output.
+
+          *	Architected and deployed a cutting-edge AI development infrastructure, encapsulating a fully dockerized framework that enables real-time monitoring of system resources. Masterfully set-up Traefik for efficient routing, and implemented a suite of advanced AI tools, setting new benchmarks in technological excellence like Stable Diffusion.
+
+
+      2.	Consulting - Digital Transformation: 
+          *	Developed an AI-automated pipeline for processing tabular data into specific SAP naming conventions using Azure Document Intelligence and Azure Phi-3.5 cloud deployment. This system significantly reduced data processing time and improved the accuracy and consistency of data integration within SAP systems compared to manual human processing.
+
+          *	Spearheaded the development of cutting-edge artificial intelligence and mathematical models, revolutionizing asset maintenance from reactive to proactive using S&P's Intelligent Asset Management and Internet of Things modules.
+
+          *	Played a pivotal role as a Statistician in developing the cadastre system, in collaboration with the registry office, offering clear justifications for property valuations to citizens. Innovated a unique calculation method for assessing house values across the Basque Country, enhancing the system's accuracy and transparency in property valuation.
+
+- layout: left
+  title: Data Analyst and Developer
+  link: https://oeg.fi.upm.es/
+  link_text: oeg.fi.upm.es
+  sub_title: Madrid, Spain
+  caption: September 2021 - September 2022
+  description: |
+      ## Ontology Engineering Group
+      ---
+      Tasked with analyzing academic papers housed within institutional repositories and developing a sophisticated system to construct knowledge graphs. This system is designed to facilitate advanced querying capabilities, addressing inquiries related to the principles of Open Science.
+
+- layout: left
+  title: Developer
+  link: https://savestarsconsulting.com/
+  link_text: savestarsconsulting.com
+  sub_title: Madrid, Spain
+  caption: June 2020 - July 2021
+  description: |
+      ## SaveStars Consulting
+      ---
+      Developed a Python-based system to extract images from NASA's VNP46A2 satellite, process these images, and implement a mask for a designated area of the peninsula. This system was specifically engineered to assess the level of light pollution in a particular region.
+
+- layout: left
+  title: Developer
+  link: https://osoc.be/
+  link_text: osoc.be
+  sub_title: Madrid, Spain
+  caption: Summer 2021
+  description: |
+      ## Open Summer of Code
+      ---
+      Collaborating with a diverse team with the goal of supporting the 2030 Agenda to achieve a better future. Designed a Web-App that objectively assesses and evaluates tabular data from a user-specified data source obtained from open data portals (e.g. datos.gob.es).
+
+- layout: left
+  title: Developer
+  link: https://osoc.be/
+  link_text: osoc.be
+  sub_title: Madrid, Spain
+  caption: Summer 2020
+  description: |
+      ## Open Summer of Code
+      ---
+      Collaborating with a cross-functional team to contribute to a brighter future for the 2030 agenda. 
+      Designing a WebApp that provides personalized recommendations for good habits based on data related to the global pandemic, which has been gathered, analyzed and presented through visually appealing graphs.
+
+- layout: left
+  title: Web Developer and Technical Support 
+  link: https://www.bblur.com/
+  link_text: bblur.com
+  sub_title: London, United Kingdom
+  caption: July 2019 - August 2019
+  description: |
+      ## BBLUR Architecture 
+      ---
+      Involved in the revamp of the company's website utilizing WIX (enterprise-level solution) and providing technical assistance to the company, focusing mainly on hardware support.
+
+- layout: left
+  title: Web Developer and Technical Support
+  link: https://trilogygroup.com/
+  link_text: trilogygroup.com
+  sub_title: Cheltenham, United Kingdom
+  caption: July 2018 - August 2018
+  description: |
+      ## Trilogy Group Limited 
+      ---
+      Participating in the redevelopment of the company's website utilizing WordPress (enterprise-level platform) and offering technical support to the company.
