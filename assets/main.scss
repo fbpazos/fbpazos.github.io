@@ -48,8 +48,8 @@ body {
 /* Wide Screen Optimized Wrapper Card */
 .wrapper {
   max-width: 1200px;
-  margin: 32px auto 48px;
-  padding: 44px 54px;
+  margin: 28px auto 44px;
+  padding: 28px 52px 48px;
   background-color: var(--color-surface);
   box-shadow: var(--shadow-lg);
   border-radius: var(--radius-md);
@@ -58,8 +58,8 @@ body {
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    margin: 20px auto;
-    padding: 32px 28px;
+    margin: 16px auto;
+    padding: 24px 28px;
     max-width: 95%;
   }
 }
@@ -69,7 +69,7 @@ body {
     margin: 0;
     border-radius: 0;
     border: none;
-    padding: 24px 16px;
+    padding: 20px 16px;
     box-shadow: none;
     max-width: 100%;
   }
@@ -80,7 +80,7 @@ body {
   width: 100% !important;
   max-width: 100% !important;
   padding: 0 !important;
-  margin: 0 0 32px 0 !important;
+  margin: 0 0 28px 0 !important;
 }
 
 .wrapper .row {
@@ -103,9 +103,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header Section (Hero Layout) */
 .header-container {
-  padding-bottom: 20px;
+  padding-top: 0 !important;
+  padding-bottom: 16px;
   border-bottom: 1.5px solid var(--color-border);
-  margin-bottom: 30px !important;
+  margin-bottom: 24px !important;
 }
 
 .header-container .row {
@@ -113,26 +114,26 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between !important;
   align-items: center !important;
   flex-wrap: wrap !important;
-  gap: 20px !important;
+  gap: 18px !important;
 }
 
 .header-left {
-  flex: 1 1 450px !important;
+  flex: 1 1 480px !important;
   padding: 0 !important;
 }
 
 .header-left h1 {
-  font-size: 2.35rem !important;
+  font-size: 2.65rem !important;
   font-weight: 800 !important;
   color: var(--color-text-primary) !important;
-  letter-spacing: -0.03em !important;
-  line-height: 1.2 !important;
+  letter-spacing: -0.035em !important;
+  line-height: 1.18 !important;
   margin: 0 0 4px 0 !important;
 }
 
 .header-left h2 {
-  font-size: 1.15rem !important;
-  font-weight: 500 !important;
+  font-size: 1.32rem !important;
+  font-weight: 600 !important;
   color: var(--color-text-muted) !important;
   margin: 0 !important;
   display: flex;
