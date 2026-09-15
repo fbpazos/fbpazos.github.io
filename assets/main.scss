@@ -159,11 +159,11 @@ h1, h2, h3, h4, h5, h6 {
 .header-right ul.icons {
   list-style: none;
   padding: 0;
-  margin: 0 0 12px 0;
+  margin: 0 0 16px 0;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 @media screen and (max-width: 768px) {
@@ -178,49 +178,59 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-right ul.icons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-sm);
-  background-color: var(--color-accent-light);
-  color: var(--color-primary);
-  font-size: 1.35rem;
-  transition: all 0.2s ease;
-  border: 1px solid var(--color-accent-border);
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: var(--radius-sm) !important;
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  font-size: 1.4rem !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid #0f172a !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.header-right ul.icons a i {
+  color: #ffffff !important;
 }
 
 .header-right ul.icons a:hover {
-  background-color: var(--color-primary);
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: var(--shadow-md) !important;
 }
 
 .header-right p {
-  font-size: 0.95rem;
-  color: var(--color-text-muted);
-  margin-bottom: 4px;
-  display: flex;
-  justify-content: flex-end;
-  gap: 6px;
+  font-size: 1.12rem !important;
+  color: var(--color-text-muted) !important;
+  font-weight: 500 !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: baseline !important;
+  gap: 8px !important;
 }
 
 @media screen and (max-width: 768px) {
   .header-right p {
-    justify-content: flex-start;
+    justify-content: flex-start !important;
   }
 }
 
 .header-right p a {
-  color: var(--color-text-primary);
-  font-weight: 600;
-  transition: color 0.15s ease;
+  color: var(--color-text-primary) !important;
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  transition: color 0.15s ease !important;
 }
 
 .header-right p a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary) !important;
+  text-decoration: underline !important;
 }
 
 /* Major Section Headings (e.g. ABOUT ME, EXPERIENCE, EDUCATION) */
