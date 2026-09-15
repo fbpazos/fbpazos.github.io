@@ -1,6 +1,5 @@
 {% assign about_data = site.data[include.page_lang].about %}
 <div class="container intro-container">
-  <h3 id="{{ include.ui.about_title | default: 'About Me' | slugify }}">{{ include.ui.about_title | default: "About Me" }}</h3>
   <div class="row clearfix">
     <div class="col-xs-12 col-sm-4 col-md-3 no-print">
       <span class="profile-img" style="background-image: url({{ site.about_profile_image | default: 'images/profile.jpg' | relative_url }})"></span>
