@@ -28,24 +28,37 @@
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
-      
-      {%- if item.description -%}
-        {%- if include.section_name == 'experience' or item.collapsible == true -%}
-          <details class="experience-details" {% if forloop.first %}open{% endif %}>
-            <summary class="experience-summary">
-              <span class="summary-badge">
-                <span class="text-when-closed">View details & initiatives</span>
-                <span class="text-when-open">Hide details</span>
-                <svg class="summary-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-              </span>
-            </summary>
-            <div class="experience-body">
-              {{ item.description | strip | markdownify }}
+
+      {%- if item.roles -%}
+        <div class="experience-roles">
+          {% for role in item.roles %}
+            <div class="role-block">
+              <h4 class="role-title">
+                <span class="role-number">{{ forloop.index }}</span>
+                {{ role.title }}
+              </h4>
+              {%- if role.summary -%}
+                <p class="role-summary-text">{{ role.summary }}</p>
+              {%- endif -%}
+              {%- if role.details -%}
+                <details class="role-details">
+                  <summary class="role-summary">
+                    <span class="summary-badge">
+                      <span class="text-when-closed">View technical details & architecture</span>
+                      <span class="text-when-open">Hide technical details</span>
+                      <svg class="summary-chevron" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </span>
+                  </summary>
+                  <div class="role-body">
+                    {{ role.details | strip | markdownify }}
+                  </div>
+                </details>
+              {%- endif -%}
             </div>
-          </details>
-        {%- else -%}
-          {{ item.description | strip | markdownify }}
-        {%- endif -%}
+          {% endfor %}
+        </div>
+      {%- elsif item.description -%}
+        {{ item.description | strip | markdownify }}
       {%- endif -%}
     </div>
   </div>

@@ -5,56 +5,42 @@
   link_text: DXC.com
   sub_title: Zaragoza, Spain
   caption: Jan. 2025 – Sept. 2026
-  description: |
-      1.	AI Solutions Engineer - GenAI & Architecture:
+  roles:
+    - title: AI Solutions Engineer - GenAI & Architecture
+      summary: Led the functional analysis, architecture, and end-to-end development of an enterprise Generative AI pipeline to accelerate technical presales—replacing manual RFP/tender analysis with a deterministic, schema-first structured extraction and multi-agent auditing system (>95% time savings).
+      details: |
+        * **Architecture & Lifecycle**: Mapped the opportunity lifecycle across 8 stages (Phases 0–7) and designed a modular suite of 9 capabilities to mitigate critical risks, including hidden penalties, tone/style inconsistencies, and bid disqualification caused by envelope-crossover errors.
+        * **Deterministic (Schema-First) Extraction**: Developed an engine utilizing long-context LLMs and layout-aware document parsing (Docling/PyMuPDF). Bypassed vector RAG in favor of strict, self-healing Pydantic v2 data contracts, structuring 450+ items with end-to-end traceability and verbatim citations.
+        * **Multi-Agent Evaluation**: Designed a virtual review committee (Neutral Arbiter alongside technical and financial risk evaluators) to audit 150+ page proposals against tender specifications, delivering clause-by-clause verdicts with detailed rationale and textual evidence.
+        * **Governance & Human-in-the-Loop**: Implemented an inspectable runtime featuring quality gates (Gate M4), enterprise cloud isolation (zero-training data policies), and end-to-end audit logging.
+        * **Impact & Empirical Validation**: Validated the MVP on live procurement bids (34-page RFP vs. 153-page proposal), slashing compliance matrix generation from 16–47 hours to under 10 minutes (>95% time savings) with 100% coverage across 320+ requirements (under 7% variance).
 
-          *	Led the functional analysis, architecture, and end-to-end development of an enterprise Generative AI pipeline to accelerate technical presales. Replaced manual RFP/tender analysis with a deterministic, schema-first structured extraction and multi-agent auditing system.
+    - title: AI Auditing System
+      summary: Technical Delivery Lead for an agentic SOX compliance auditing solution built with Google ADK, providing automated evidence validation for Control Owners and significantly reducing auditor overhead.
+      details: |
+        * **Technical Leadership**: Led the technical delivery, managing developers and coordinating with project management while engineering the core AI solution.
+        * **Agentic Evidence Analysis**: Built the agentic system using Google ADK to analyze uploaded audit evidences (various file formats and sizes) and determine sufficiency against SOX controls.
+        * **Pre-Submission Validation**: Generated detailed, AI-analyzed reports for Control Owners, providing pre-submission validation that was previously unavailable.
+        * **Cost & Effort Reduction**: Significantly reduced auditor time for evidence checking, resulting in substantial cost savings by minimizing required audit resources.
+        * **Compliance Quality**: Empowered Control Owners with a precise inventory and validation check, streamlining evidence preparation and improving compliance quality.
 
-          *	**Architecture & Lifecycle**: Mapped the opportunity lifecycle across 8 stages (Phases 0–7) and designed a modular suite of 9 capabilities to mitigate critical risks, including hidden penalties, tone/style inconsistencies, and bid disqualification caused by envelope-crossover errors.
+    - title: Enterprise AI Platform Leadership
+      summary: Directed cross-functional teams to architect and deploy an enterprise Microsoft AutoGen multi-agent AI platform on Azure, managing microservices and cloud-native event-driven pipelines processing 1M+ records.
+      details: |
+        * **Multi-Agent Architecture**: Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing microservices and cloud-native architecture on Azure.
+        * **Intelligent Agents**: Architected intelligent agents (geospatial, claims, decision automation) at enterprise scale using Azure OpenAI GPT-4o.
+        * **Event-Driven Pipelines**: Designed event-driven data pipelines (Azure EventHub, 99.9% reliability), processing over 1M records.
+        * **Roadmap & Deployment**: Owned end-to-end delivery from technical roadmap to enterprise production deployment.
+        * **DevOps & Model Validation**: Built DevOps pipelines, CI/CD automation, and AI model validation frameworks for scalable production systems.
+        * **Team Mentorship**: Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
 
-          *	**Deterministic (Schema-First) Extraction**: Developed an engine utilizing long-context LLMs and layout-aware document parsing (Docling/PyMuPDF). Bypassed vector RAG in favor of strict, self-healing Pydantic v2 data contracts, structuring 450+ items with end-to-end traceability and verbatim citations.
-
-          *	**Multi-Agent Evaluation**: Designed a virtual review committee (Neutral Arbiter alongside technical and financial risk evaluators) to audit 150+ page proposals against tender specifications, delivering clause-by-clause verdicts with detailed rationale and textual evidence.
-
-          *	**Governance & Human-in-the-Loop**: Implemented an inspectable runtime featuring quality gates (Gate M4), enterprise cloud isolation (zero-training data policies), and end-to-end audit logging.
-
-          *	**Impact & Empirical Validation**: Validated the MVP on live procurement bids (34-page RFP vs. 153-page proposal), slashing compliance matrix generation from 16–47 hours to under 10 minutes (>95% time savings) with 100% coverage across 320+ requirements (under 7% variance).
-
-      2.	AI Auditing System:
-
-          *	Led the technical delivery, managing both developers and a project manager, while also developing the core AI solution.
-
-          *	Built the agentic system using Google ADK to analyze uploaded audit evidences (various file formats and sizes) and determine their sufficiency against SOX controls.
-
-          *	Generated detailed, AI-analyzed reports for Control Owners, providing pre-submission validation that was previously unavailable.
-
-          *	Significantly reduced auditor time for evidence checking, resulting in substantial cost savings by minimizing the required audit resources.
-
-          *	Empowered Control Owners with a precise inventory and validation check, streamlining evidence preparation and improving compliance quality.
-
-      3.	Enterprise AI Platform Leadership:
-
-          *	Led cross-functional teams to design and launch a Microsoft AutoGen-powered multi-agent AI platform, managing various microservices and cloud-native architecture on Azure.
-
-          *	Architected intelligent agents (geospatial, claims, decision automation) at enterprise scale using Azure OpenAI GPT-4o.
-
-          *	Designed event-driven data pipelines (Azure EventHub, 99.9% reliability), processing over 1M records.
-
-          *	Owned end-to-end delivery from technical roadmap to enterprise deployment.
-
-          *	Built DevOps pipelines, CI/CD automation, and AI model validation frameworks for scalable production systems.
-
-          *	Mentored teams on advanced AI, multi-agent orchestration, and secure execution environments.
-
-      4.	Agentic Traffic Management Automation Platform:
-
-          *	Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests, using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure and Kubernetes.
-
-          *	Built an orchestration layer coordinating specialised agents and shared MCP tools, ensuring deterministic, auditable workflows and clean separation between business logic, standards and geospatial computation.
-
-          *	Integrated the platform with existing enterprise systems (including CRM and work management tools) via dedicated adapters, enabling end-to-end automation from request intake to deployment-ready traffic plans.
-
-          *	Improved delivery speed and consistency of traffic management designs by standardising computations, reducing manual configuration effort and lowering the risk of human error in layout definition.
+    - title: Agentic Traffic Management Automation Platform
+      summary: Architected and delivered a multi-agent geospatial planning engine automating temporary traffic management layouts from high-level roadwork requests using Google ADK, Agent2Agent, MCP, PostgreSQL, and Kubernetes.
+      details: |
+        * **Geospatial Planning Engine**: Designed and implemented a multi-agent geospatial planning engine to automate temporary traffic management layouts from high-level roadwork requests using Google ADK, Agent2Agent, MCP, PostgreSQL, Azure, and Kubernetes.
+        * **Orchestration Layer**: Built an orchestration layer coordinating specialised agents and shared MCP tools, ensuring deterministic, auditable workflows and clean separation between business logic, standards, and geospatial computation.
+        * **Enterprise Integration**: Integrated the platform with existing enterprise systems (including CRM and work management tools) via dedicated adapters, enabling end-to-end automation from request intake to deployment-ready traffic plans.
+        * **Standardization & Quality**: Improved delivery speed and consistency of traffic management designs by standardising computations, reducing manual configuration effort, and lowering the risk of human error in layout definition.
 
 - layout: left
   title: Consultant & System Innovator
@@ -63,24 +49,22 @@
   link_text: IDOM.com
   sub_title: Bilbao, Spain
   caption: Sept. 2023 – Dec. 2024
-  description: |
-      1.	System Innovator:
-          *	Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities. Demonstrated that this approach could outperform traditional human monitoring systems by providing real-time data integration and predictive analytics.
+  roles:
+    - title: System Innovator
+      summary: Drove research and development across Digital Twins (Autodesk Tandem & Azure IoT), internal RAG systems, BERT NLP classification, and dockerized AI development infrastructure.
+      details: |
+        * **Digital Twin PoC**: Developed a Proof-of-Concept Digital Twin utilizing Autodesk Tandem and Azure IoT Hub, in conjunction with Azure Stream Analytics and Azure ML Studio, to showcase advanced capabilities outperforming traditional human monitoring with real-time data integration and predictive analytics.
+        * **Internal RAG & AI Companion**: Directed theoretical R&D of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing organizational language understanding and creating an internal AI-driven companion.
+        * **BERT NLP Classification**: Pioneered the development of an AI classifier using NLP and Google's BERT model, complemented by an ontology-based approach for sophisticated categorization from comprehensive project descriptions.
+        * **Automated CV Generator**: Innovated a CV generator grounded in S&P's Success Factors system, featuring data ingestion, AI-driven paragraph generation, template compilation, and polished output.
+        * **AI Infrastructure**: Architected and deployed a cutting-edge AI development infrastructure, encapsulating a fully dockerized framework with real-time resource monitoring, Traefik routing, and advanced AI tools like Stable Diffusion.
 
-          *	Directed the theoretical research & development of an innovative internal Retrieval Augmented Generation (RAG) system, significantly enhancing language understanding capabilities and applications within the organization. Spearheaded the creation of an AI-driven companion, demonstrating leadership in leveraging advanced AI technologies & Large Language Models (LLM) to drive organizational progress and innovation.
-
-          *	Pioneered the development of an AI classifier using NLP and the Google's BERT language model, complemented by an ontology-based approach, for sophisticated categorization derived from comprehensive project descriptions.
-
-          *	Innovated a CV generator grounded in the S&P's Success Factors internal system, featuring a multi-layered approach encompassing data ingestion, AI-driven & deterministic data processing paragraph generation, template compilation, and polished CV output.
-
-          *	Architected and deployed a cutting-edge AI development infrastructure, encapsulating a fully dockerized framework that enables real-time monitoring of system resources. Masterfully set-up Traefik for efficient routing, and implemented a suite of advanced AI tools, setting new benchmarks in technological excellence like Stable Diffusion.
-
-      2.	Consulting – Digital Transformation:
-          *	Developed an AI-automated pipeline for processing tabular data into specific SAP naming conventions using Azure Document Intelligence and Azure Phi-3.5 cloud deployment. This system significantly reduced data processing time and improved the accuracy and consistency of data integration within SAP systems compared to manual human processing.
-
-          *	Spearheaded the development of cutting-edge artificial intelligence and mathematical models, revolutionizing asset maintenance from reactive to proactive using S&P's Intelligent Asset Management and Internet of Things modules.
-
-          *	Played a pivotal role as a Statistician in developing the cadastre system, in collaboration with the registry office, offering clear justifications for property valuations to citizens. Innovated a unique calculation method for assessing house values across the Basque Country, enhancing the system's accuracy and transparency in property valuation.
+    - title: Consulting – Digital Transformation
+      summary: Engineered automated SAP tabular data pipelines with Azure Document Intelligence and Phi-3.5, predictive asset maintenance models, and regional statistical property valuation systems.
+      details: |
+        * **SAP Data Pipeline**: Developed an AI-automated pipeline for processing tabular data into specific SAP naming conventions using Azure Document Intelligence and Azure Phi-3.5 cloud deployment, significantly reducing data processing time and boosting data integration consistency.
+        * **Intelligent Asset Maintenance**: Spearheaded the development of AI and mathematical models, revolutionizing asset maintenance from reactive to proactive using S&P's Intelligent Asset Management and IoT modules.
+        * **Cadastre Statistical Valuation**: Played a pivotal role as a Statistician developing the cadastre system with the registry office, innovating a unique calculation method for assessing house values across the Basque Country.
 
 - layout: left
   title: Data Analyst and Developer Intern
@@ -89,15 +73,12 @@
   link_text: oeg.fi.upm.es
   sub_title: Madrid, Spain
   caption: Sept. 2021 – Sept. 2022
-  description: |
-      *	Developed a sophisticated system to construct knowledge graphs from academic papers housed within institutional repositories, enhancing advanced querying capabilities related to Open Science principles.
-
-      *	Analyzed large datasets of academic publications to extract meaningful metadata and relationships, improving data accessibility and facilitating deeper insights for researchers.
-
-      *	Implemented ontology-based data models to represent complex scholarly information, enabling better interoperability and integration with other data sources.
-
-      *	Optimized data ingestion processes by automating metadata extraction and semantic annotation, increasing efficiency by 40% compared to manual methods.
-
-      *	Collaborated with a multidisciplinary team to refine algorithms for data processing and knowledge representation, contributing to the advancement of open-source tools in the academic community.
-
-      *	Utilized technologies such as RDF, SPARQL, and Python libraries for semantic data processing, enhancing the group's capabilities in semantic web technologies.
+  roles:
+    - title: Data Analyst and Developer Intern
+      summary: Developed knowledge graph construction pipelines from institutional academic repositories using RDF and SPARQL, automating metadata extraction to increase ingestion efficiency by 40%.
+      details: |
+        * **Knowledge Graph Construction**: Developed a system to construct knowledge graphs from academic papers in institutional repositories, enhancing advanced querying capabilities for Open Science principles.
+        * **Metadata & Relationship Extraction**: Analyzed large datasets of academic publications to extract meaningful metadata and relationships, improving data accessibility and facilitating deeper research insights.
+        * **Ontology Modeling**: Implemented ontology-based data models to represent complex scholarly information, enabling better interoperability and integration across data sources.
+        * **Automated Ingestion**: Optimized data ingestion processes by automating metadata extraction and semantic annotation, increasing efficiency by 40% compared to manual methods.
+        * **Semantic Web Stack**: Utilized RDF, SPARQL, and Python semantic libraries to enhance the group's semantic web capabilities.

@@ -623,25 +623,81 @@ a[href*=".pdf"]:hover {
   transform: translateY(-1px);
 }
 
-/* Collapsible Experience Details & Interactive Accordion */
-.experience-details {
+/* Experience Role Cards, Summaries & Interactive Details */
+.experience-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   margin-top: 12px;
+}
+
+.role-block {
+  background-color: #fafbfd;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  transition: all 0.2s ease;
+}
+
+.role-block:hover {
+  border-color: #cbd5e1;
+  box-shadow: var(--shadow-sm);
+}
+
+.role-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--color-text-primary) !important;
+  margin: 0 0 10px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+.role-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color-accent-light);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-accent-border);
+  font-size: 0.88rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.role-summary-text {
+  font-size: 1.08rem !important;
+  color: var(--color-text-secondary) !important;
+  line-height: 1.7 !important;
+  margin: 0 0 12px 0 !important;
+}
+
+.role-details,
+.experience-details {
+  margin-top: 10px;
   width: 100%;
 }
 
+.role-details summary.role-summary,
 .experience-details summary.experience-summary {
   list-style: none;
   display: inline-block;
   cursor: pointer;
   outline: none;
   user-select: none;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
+.role-details summary.role-summary::-webkit-details-marker,
 .experience-details summary.experience-summary::-webkit-details-marker {
   display: none;
 }
 
+.role-details summary.role-summary::marker,
 .experience-details summary.experience-summary::marker {
   display: none;
 }
@@ -653,14 +709,15 @@ a[href*=".pdf"]:hover {
   background-color: var(--color-accent-light);
   color: var(--color-primary);
   border: 1.5px solid var(--color-accent-border);
-  padding: 6px 14px;
+  padding: 5px 14px;
   border-radius: var(--radius-sm);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   transition: all 0.2s ease;
   box-shadow: var(--shadow-sm);
 }
 
+.role-details summary.role-summary:hover .summary-badge,
 .experience-details summary.experience-summary:hover .summary-badge {
   background-color: #dbeafe;
   border-color: #93c5fd;
@@ -674,31 +731,37 @@ a[href*=".pdf"]:hover {
   flex-shrink: 0;
 }
 
+.role-details[open] .summary-chevron,
 .experience-details[open] .summary-chevron {
   transform: rotate(180deg);
 }
 
+.role-details .text-when-open,
 .experience-details .text-when-open {
   display: none;
 }
 
+.role-details .text-when-closed,
 .experience-details .text-when-closed {
   display: inline;
 }
 
+.role-details[open] .text-when-open,
 .experience-details[open] .text-when-open {
   display: inline;
 }
 
+.role-details[open] .text-when-closed,
 .experience-details[open] .text-when-closed {
   display: none;
 }
 
+.role-body,
 .experience-body {
-  margin-top: 16px;
-  padding-top: 8px;
+  margin-top: 14px;
+  padding-top: 10px;
   border-top: 1px dashed var(--color-border);
-  animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.25s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -727,14 +790,17 @@ a[href*=".pdf"]:hover {
     max-width: 100% !important;
   }
 
+  .role-details,
   .experience-details {
     display: block !important;
   }
 
+  .role-details summary,
   .experience-details summary {
     display: none !important;
   }
 
+  .role-body,
   .experience-body {
     display: block !important;
     border-top: none !important;
@@ -746,6 +812,7 @@ a[href*=".pdf"]:hover {
     display: none !important;
   }
 }
+
 
 /* Footer */
 footer {
