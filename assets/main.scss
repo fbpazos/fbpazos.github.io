@@ -413,24 +413,24 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Compact Intro & Profile image on Mobile */
   .intro-container {
-    margin-bottom: 16px !important;
+    margin-bottom: 10px !important;
   }
 
   .intro-container .row {
     display: flex !important;
     flex-direction: row !important;
     align-items: flex-start !important;
-    gap: 14px !important;
+    gap: 10px !important;
   }
 
   .intro-container .profile-col {
-    flex: 0 0 76px !important;
-    max-width: 76px !important;
+    flex: 0 0 60px !important;
+    max-width: 60px !important;
   }
 
   .intro-container .profile-img {
-    width: 76px !important;
-    height: 76px !important;
+    width: 60px !important;
+    height: 60px !important;
     border: 2px solid #ffffff !important;
     box-shadow: var(--shadow-sm) !important;
     margin: 0 !important;
@@ -439,8 +439,8 @@ h1, h2, h3, h4, h5, h6 {
   .intro-container .bio-col {
     flex: 1 1 auto !important;
     min-width: 0 !important;
-    font-size: 0.94rem !important;
-    line-height: 1.58 !important;
+    font-size: 0.86rem !important;
+    line-height: 1.5 !important;
   }
 
   .intro-container .bio-col p:first-of-type {
@@ -448,18 +448,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .intro-container .bio-col p {
-    margin-bottom: 10px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .intro-container mark {
+    font-size: 0.78rem !important;
+    padding: 1px 6px !important;
+    margin: 1px 2px !important;
+    line-height: 1.25 !important;
   }
 
   .download-cv-wrapper {
-    margin-top: 12px !important;
+    margin-top: 6px !important;
   }
 
   .cv-download-btn {
     width: 100% !important;
     justify-content: center !important;
-    padding: 8px 16px !important;
-    font-size: 0.9rem !important;
+    padding: 6px 12px !important;
+    font-size: 0.82rem !important;
   }
 
   .wrapper h3 {
