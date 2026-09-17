@@ -459,6 +459,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .download-cv-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
     margin-top: 6px !important;
   }
 
@@ -858,7 +861,11 @@ a:hover {
 
 /* Download CV Button & PDF Links */
 .download-cv-wrapper {
-  margin-top: 24px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-top: 18px !important;
 }
 
 .cv-download-btn,
@@ -868,23 +875,37 @@ a[href*=".pdf"] {
   gap: 8px !important;
   background-color: var(--color-primary) !important;
   color: #ffffff !important;
-  padding: 10px 22px !important;
+  padding: 9px 20px !important;
   border-radius: var(--radius-sm) !important;
   font-weight: 700 !important;
-  font-size: 0.98rem !important;
+  font-size: 0.95rem !important;
   box-shadow: var(--shadow-sm) !important;
   text-decoration: none !important;
   transition: all 0.2s ease !important;
-  margin-top: 6px;
+  margin-top: 0 !important;
+  border: 1.5px solid var(--color-primary) !important;
 }
 
 .cv-download-btn:hover,
 a[href*=".pdf"]:hover {
   background-color: var(--color-primary-hover) !important;
+  border-color: var(--color-primary-hover) !important;
   box-shadow: var(--shadow-md) !important;
   transform: translateY(-1px) !important;
   color: #ffffff !important;
   text-decoration: none !important;
+}
+
+.cover-letter-btn {
+  background-color: var(--color-accent-light) !important;
+  color: var(--color-primary) !important;
+  border: 1.5px solid var(--color-accent-border) !important;
+}
+
+.cover-letter-btn:hover {
+  background-color: #dbeafe !important;
+  border-color: #93c5fd !important;
+  color: var(--color-primary-hover) !important;
 }
 
 /* Experience Role Cards, Summaries & Interactive Details */
